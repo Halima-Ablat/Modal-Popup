@@ -1,0 +1,43 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.box{
+  border: 1px solid red;
+  width: 800px;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.close-button{
+ position: absolute;
+ top: 10px;
+ right: 10px;
+ background-color: white;
+ cursor: pointer;
+}
+
+header{
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background-color: green;
+  padding: 40px;
+}
+
+
+footer{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: green;
+  padding: 20px;
+}
