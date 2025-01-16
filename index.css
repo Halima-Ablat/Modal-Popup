@@ -41,3 +41,9 @@ footer{
   background-color: green;
   padding: 20px;
 }
+
+.modal-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
